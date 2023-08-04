@@ -1,0 +1,102 @@
+
+.main_div_home {
+    height: 80%;
+    width: 90%;
+    background-color: rgb(223, 217, 217);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.form_group_home {
+    display: block;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.form_group_home label {
+    display: block;
+}
+
+.form_group_home input {
+    height: 40px;
+    width: 350px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+.form_group_home select {
+    height: 60px;
+    width: 350px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+.form_group_home input:disabled {
+    background-color: rgb(182, 180, 180);
+}
+
+.form_group_home select:disabled {
+    background-color: rgb(182, 180, 180);
+}
+
+.button_div {
+    display: block;
+    width: 1200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid #008CBA;
+    color: #008CBA;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.button_div button {
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button_div button:disabled {
+    background-color: rgb(182, 180, 180);
+    color: white;
+    border-color: white;
+    cursor: default;
+}
+
+.required_label {
+    color: red;
+}
