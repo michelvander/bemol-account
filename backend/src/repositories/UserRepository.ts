@@ -7,7 +7,8 @@ export class UserRepository {
 
         try {
             const user_insert = await db.user.create({
-                data: user
+                data: {...user,
+                password: this.encryptPassword(user.password)}
             });
 
             return {
@@ -30,7 +31,7 @@ export class UserRepository {
         return user;
     }
 
-    async encryptPassword(password: string) {
+    encryptPassword(password: string) {
 		const salt = bcrypt.genSaltSync(10);
 		return bcrypt.hashSync(password, salt);
 	}

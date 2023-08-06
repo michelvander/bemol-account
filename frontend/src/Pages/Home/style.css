@@ -25,7 +25,7 @@
 
 .form_group_home input {
     height: 40px;
-    width: 350px;
+    width: 450px;
     display: block;
     margin: 10px auto;
     border-radius: 10px;
@@ -99,4 +99,9 @@
 
 .required_label {
     color: red;
+}
+
+hr {
+    height: '3px';
+    width: 80%;
 }

@@ -1,4 +1,4 @@
-import Img from '../assets/bemol-logo.png';
+import Img from '../assets/marca-bemol.svg';
 import './Header.css';
 import React from 'react';
 
@@ -8,7 +8,7 @@ export const Header = () => {
     <>
       <div className='img_bemol'>
           <img src={Img} alt='bemol-logo'/>
-          <p>AUTO-SCREWING</p>
+          <p>CONTA BEMOL</p>
       </div>
     </>
   );
