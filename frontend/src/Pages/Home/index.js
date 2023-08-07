@@ -80,6 +80,7 @@ export const Home = () => {
       error = true;
     } else if(!equalPasswords(password, confirmPassword)){
       setLabelError12(true);
+      error = true;
     } else {
       setLabelError4(false);
       setLabelError12(false);

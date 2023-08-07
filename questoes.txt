@@ -1,0 +1,17 @@
+1. A solução deve ser disponibilizada em Cloud ou On-premise?
+R.: Em Cloud, podendo utilizar Linux ou Windows, tendo em vista que o NodeJS pode ser executado em ambos os sistemas operacionais. O Cloud trará a vantagem de alta disponibilidade para a aplicação, tendo em vista que é de suma importância a feature para cadastro de usuários (possíveis novos clientes).
+
+2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa
+solução, responda qual ferramenta acreditas ser apropriada para o controle de tarefas da
+equipe, a ferramenta é ágil?
+R.: Pode-se utilizar da metodologia Scrum. Que é uma ferramenta ágil para controle de entregas rápidas aos clientes. Ela proporciona transparência, entregas contínuas e adaptabilidade.
+Com o Scrum pode-se ter Backlog com tarefas bem divididas e claras para o time que irá desenvolver a feature.
+
+3. Você se sente capaz de liderar esta equipe? Por quê?
+R.: Creio que sim. Tenho experiência no desenvolvimento de software com times que usam de metodologia ágil, e trabalho atualmente com este tipo de metodologia. Por vivenciar e ter experiência, me sinto capaz de liderar times.
+
+4. Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria?
+R.: Nenhuma sugestão no momento.
+
+5. Acha válido esse desafio para o processo que está participando?
+R.: Totalmente válido. Fui capaz de demonstrar habilidades tanto no back-end quanto front-end. Que, creio, sejam primordiais para a vaga que estou concorrendo.
